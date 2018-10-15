@@ -17,7 +17,7 @@ class LinkedList(object):
         self.__size = 0
 
     def size(self):
-        return self.__size + 1
+        return self.__size 
 
     def insert(self, data):
         self.__size += 1
@@ -111,7 +111,3 @@ class LinkedList(object):
             return [self.index(i) for i in range(index)]
         else:
             print("Index Error")
-
-
-
-
